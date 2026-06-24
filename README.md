@@ -25,7 +25,17 @@ Built specifically to showcase profiles and social channels for **ZeiGrin**.
 ## 📂 Project Structure
 ```text
 web-dev.ZGC/
-├── Github_avatar.jpg    # Profile picture asset
-├── Style.css            # Custom CSS styles & animations
-├── ZeiGrin_Web.html     # Main HTML structural skeleton
-└── README.md            # Repository documentation
+├── css
+ ├── authstyle.css
+ ├── style.css
+ ├── terminal.css
+├── img
+ ├── Github_avatar.jpg
+├── js
+ ├── auth.js
+├── project-root
+ ├── login
+  ├── auth.html
+ ├── index.html
+ ├──terminal-test.html
+├── README.md
