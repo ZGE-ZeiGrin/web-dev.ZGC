@@ -33,10 +33,14 @@ Built specifically to showcase profiles and social channels for **ZeiGrin**.
 </p>
 
 🛠 Languages & Tools
+<p align="center">
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+</p>
 
 🎬 Video Editing & Creative
+<p align="center">
 ![CapCut](https://img.shields.io/badge/CapCut-black?style=for-the-badge&logo=capcut&logoColor=white) ![DaVinci Resolve](https://img.shields.io/badge/DaVinci_Resolve-051439?style=for-the-badge&logo=davinci-resolve&logoColor=white) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+</p>
 
 ---
 
