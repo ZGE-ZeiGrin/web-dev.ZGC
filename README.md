@@ -28,6 +28,7 @@ Built specifically to showcase profiles and social channels for **ZeiGrin**.
 </p>
 
 📈 Streak
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZGE-ZeiGrin&theme=tokyonight" alt="ZGE Streak Stats" />
 </p>
 
