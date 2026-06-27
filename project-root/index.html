@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>ZeiGrin Bio</title>
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    <body>
-        <main class="bio-container">
-
-        <header class="avatar-block">
-            <img src="../img/Github_avatar.jpg">
-        </header>
-
-        <h1>ZeiGrin</h1>
-        <p>Gaming content Creator</p>
-
-        <ul class="button-list">
-            <li>
-                <a href="https://youtube.com/@ZeiGrin">
-                    <i class="fab fa-youtube"></i> Youtube
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/ZGE-ZeiGrin">
-                    <i class="fab fa-github"></i> Github
-                </a>
-            </li>
-            <li>
-                <a href="https://discordapp.com/users/932527981295976469">
-                    <i class="fab fa-discord"></i> Discord
-                </a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/phuoc.toan.612475">
-                    <i class="fab fa-facebook"></i> Facebook
-                </a>
-            </li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeiTerm</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <h2>ZeiTerm</h2>
+        <ul>
+            <li>Link</li>
+            <li>Custom your bio</li>
+            <li>Design</li>
         </ul>
-        </main>
-    </body>
+    </aside>
+
+    <main class="terminal-container">
+        <div class="terminal-header">
+
+            <div class="buttons">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+
+            <div class="title">Terminal</div>
+            
+            <label for="upload-btn" class="custom-upload">Upload Img</label>
+            <input type="file" id="upload-btn" accept="image/*" style="display: none;">
+        </div>
+
+        <div class="terminal-body">
+
+            <div class="terminal-line">
+                <span class="prompt">user@ZeiTerm_Bio:~$ </span>
+                <input type="text" id="terminal-input" autofocus autocomplete="off">
+            </div>
+
+            <div>
+                <pre id="ascii-display" style="font-family: monospace; line-height: 6px; font-size: 6px; color: #a855f7;"></pre>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="../js/index.js"></script>
+</body>
 </html>

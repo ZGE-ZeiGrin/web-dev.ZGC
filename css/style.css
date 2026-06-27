@@ -1,58 +1,117 @@
-body{
-    background-color: #121212;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+.terminal-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    padding: 0 15px;
 }
 
-.bio-container{
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-    padding: 20px;
-}
-
-.avatar-block img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
-
-h1{
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-p{
-    font-size: 24px;
-    color: #aaaaaa;
-    margin-bottom: 25px;
-}
-
-.button-list{
-    list-style: none;
-}
-
-.button-list li{
-    margin-bottom: 15px;
-}
-
-.button-list a{
-    display: block;
-    background-color: #1e1e1e;
+.custom-upload {
+    background: #a855f7;
     color: #ffffff;
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 0.2s;
 }
 
-.button-list a:hover{
-    background-color: #333333;
+.custom-upload:hover {
+    background: #9333ea;
+    box-shadow: 0 0 8px #a855f7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #161b22;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #30363d;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+    color: #58a6ff;
+}
+
+.terminal-container {
+    gap: 5%;
+    width: 100%;
+    align-items: start;
+}
+
+.terminal-header .buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-header .buttons span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close {
+    background-color: #ff5f56;
+}
+
+.minimize {
+    background-color: #ffbd2e;
+}
+
+.maximize {
+    background-color: #27c93f;
+}
+
+.terminal-header .title {
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.terminal-body {
+    background-color: #050505;
+    border: 1px solid #30363d;
+    border-radius: 0 0 6px 6px;
+    padding: 20px;
+    flex-grow: 1;
+    min-height: 300px;
+}
+
+.terminal-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.terminal-line .prompt {
+    color: #4af626;
+    font-weight: bold;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    flex-grow: 1;
+    outline: none;
+    caret-color: #4af626;
 }
